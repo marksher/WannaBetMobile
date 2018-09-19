@@ -1,0 +1,166 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_betName",
+				"type": "string"
+			},
+			{
+				"name": "_player2Address",
+				"type": "address"
+			}
+		],
+		"name": "cancelBet",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [],
+		"name": "kill",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_betName",
+				"type": "string"
+			},
+			{
+				"name": "_player1Address",
+				"type": "address"
+			}
+		],
+		"name": "joinBet",
+		"outputs": [],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_betName",
+				"type": "string"
+			},
+			{
+				"name": "_timeLimitSeconds",
+				"type": "uint256"
+			},
+			{
+				"name": "_player2Address",
+				"type": "address"
+			}
+		],
+		"name": "createBet",
+		"outputs": [],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "minTimeLimit",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "minBet",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "playerStats",
+		"outputs": [
+			{
+				"name": "totalAmountBet",
+				"type": "uint256"
+			},
+			{
+				"name": "totalNumberBet",
+				"type": "uint256"
+			},
+			{
+				"name": "totalNumberAgreements",
+				"type": "uint256"
+			},
+			{
+				"name": "totalNumberdisagreements",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_betName",
+				"type": "string"
+			},
+			{
+				"name": "_vote",
+				"type": "uint256"
+			}
+		],
+		"name": "castVote",
+		"outputs": [],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "maxTimeLimit",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "constructor"
+	}
+]
