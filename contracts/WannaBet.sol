@@ -412,5 +412,3 @@ contract WannaBet {
     }
 
 }
-
-

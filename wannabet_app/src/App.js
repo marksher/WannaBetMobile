@@ -197,8 +197,8 @@ class App extends Component {
       <div className="App">
         <img src="wannabet.png" height="200px" title="meme" alt="meme" />
         <hr />
-        <h3>0x197a3b2d22896c1263e97237f2b2a090847a8357</h3>
-        <h3>0x48a5a9c334ed3933305d29c2e1606d47a5789920</h3>
+        <h3>Main: 0x197a3b2d22896c1263e97237f2b2a090847a8357</h3>
+        <h3>Backup: 0x48a5a9c334ed3933305d29c2e1606d47a5789920</h3>
         <hr />
         <h3>Current User: {window.web3.eth.accounts[0]}</h3>
         <h3>Current Balance: {accountBalance}
